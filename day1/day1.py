@@ -25,7 +25,7 @@ def count_increasing_threes(array):
 
 
 if __name__ == "__main__":
-    f = open("day1", "r")
+    f = open("day1.txt", "r")
     a = [int(n) for n in f.readlines()]
     print(count_increasing(a))
     print(count_increasing_threes(a))
